@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content-container">
+                <h1>Simple Interest Calculator</h1>
+                <div class="information-container">
+                    <div class="text-container">
+                        <label>Amount</label>
+                        <label>Interest Rate</label>
+                        <label>No. of Years</label>
+                        <button onclick="compute()">Compute Interest</button>
+                    </div>
+                    <div class="inputs-container">
+                        <input type="number" id="principal">
+                        <input type="range" style="display: inline-block" id="rate" value="0">
+                        <span id="rangeValue">0%</span>
+                        <input type="number" style="width: 35px" value="1" min="1" max="10" id="years">
+                    </div>
+                </div>
+                <div id="result">
+                    
+                </div>
+                <footer>&copy Everyone can get rich</footer>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+<!--
+
+        <h1>Simple Interest Calculator</h1>
+
+        Amount <input type="number"  id="principal">  <br/>
+        Rate <input type="number"  id="rate">  <br/>
+        No. of Years <input type="number"  id="years">  <br/>
+        Interest : <span id="result"></span><br>
+
+        <button onclick="compute()">Compute</button>
+-->

@@ -1,0 +1,54 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+	background-color: white;
+	width: 420px;
+	border-radius: 20px;
+	margin: 10px auto; 	
+	padding: 25px 18px 18px 18px;
+}
+.content-container {
+	width: 100%;
+}
+h1 {
+	color: gray;
+	font-size: 18pt;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.information-container {
+	width: 100%;
+	display: flex;
+	margin-top: 10px;
+	padding-left: 50px;
+}
+.text-container {
+	width: 110px;
+}
+.inputs-container {
+	width: 185px;
+}
+label, input, span, button {
+	margin-top: 12px;
+}
+label {
+	display: block;
+}
+button {
+	width: 100%;
+	font-size: 9pt;
+}
+footer {
+	margin-top: 20px;
+}
+#result {
+	margin: 10px 0px 0px 50px;
+}
