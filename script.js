@@ -9,7 +9,14 @@ let rangeValue = document.getElementById("rangeValue");
 
 
 rate.addEventListener("change", () => {
-	rangeValue.innerHTML = rate.value + "%";
+	if (rate.value == 0) 
+	{
+		rangeValue.innerHTML = "1%";
+	}
+	else 
+	{
+		rangeValue.innerHTML = rate.value + "%";
+	}
 })
 
 
